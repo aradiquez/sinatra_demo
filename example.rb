@@ -37,7 +37,7 @@ end
 
 get /\/lettuce\/([\w]+)/ do |c|
   # Matches "GET /letuce/world", "GET /letuce/12345" etc.
-  "<h2>letuce is sooo goood!</h2> <br/> with: #{c}!!"
+  "<h2>letuce is sooo goood!</h2> with: #{c}!!"
 end
 
 get '/json' do
